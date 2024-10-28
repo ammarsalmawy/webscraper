@@ -1,7 +1,7 @@
 # Web Scraper Lambda Function
 This project sets up an AWS Lambda function that scrapes data from a specified webpage and uploads the extracted data to an S3 bucket. This function is automated using a CloudWatch Events trigger to run at regular intervals.
 
-1. Install Dependencies
+1. Install Dependencies/
    pip install boto3 -t .
   pip install requests -t .
   pip install beautifulsoup4 -t .
