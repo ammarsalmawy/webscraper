@@ -1,5 +1,5 @@
 # Web Scraper Lambda Function\
-This project sets up an AWS Lambda function that scrapes data from a specified webpage and uploads the extracted data to an S3 bucket. This function is automated using a CloudWatch Events trigger to run at regular intervals.\
+This project sets up an AWS Lambda function that scrapes the headlines from www.sportingnews.com and uploads the extracted data to an S3 bucket. This function is automated using a CloudWatch Events trigger to run at regular intervals.\
 
 1. Install Dependencies\
    ```bash
