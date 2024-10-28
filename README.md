@@ -3,9 +3,9 @@ This project sets up an AWS Lambda function that scrapes data from a specified w
 
 1. Install Dependencies\
    ```bash
-pip install boto3 -t .
-pip install requests -t .
-pip install beautifulsoup4 -t .
+      pip install boto3 -t .
+      pip install requests -t .
+      pip install beautifulsoup4 -t .
 
 2. Package the Function\
    zip all the files including the python code and the libraries into one zip file\
